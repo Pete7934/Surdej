@@ -1,0 +1,29 @@
+/*----------------------WRAPPER----------------------*/
+.wrapper{
+    margin: 0px auto;
+    padding: 0px;
+    background-color: #888;
+}
+.wrapper.sm{
+    max-width:768px;
+}
+.wrapper.md{
+    max-width: 1024px;
+}
+.wrapper.lg{
+    max-width: 1440px;
+}
+.wrapper.fw{
+    
+}
+
+/*----------------------NAV-COLLAPSE----------------------*/
+.nav-collapse{
+    
+}
+.nav-collapse ul{
+    
+}
+.nav-toggle{
+    
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/rwd.css">
+        <link rel="stylesheet" href="responsive-nav.js-master/responsive-nav.css">
+        <script src="responsive-nav.js-master/responsive-nav.min.js"></script>
+        <title>New Document</title>
+    </head>
+    <body>
+        <div class="wrapper lg">
+            <nav class="nav-collapse">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <script>
+            var nav = responsiveNav(".nav-collapse",{
+            label:"Menu",
+            transition: 284,
+            });
+        </script>
+    </body>
+</html>
